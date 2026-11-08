@@ -3,3 +3,39 @@
     padding: 0;
 
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+.nav {
+    background-color: rgb(10, 162, 244);
+    padding: 25px;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.nav a {
+    color: rgb(4, 7, 5);
+    text-decoration: none;
+    margin: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px; 
+}
+
+
+
