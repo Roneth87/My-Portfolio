@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,8 +23,8 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #1e293b;
-    
- 
+
+
 }
 
 .logo {
@@ -48,12 +48,12 @@ body {
 
 }
 
-.nav a:hover{
+.nav a:hover {
     color: lightskyblue;
 
 }
 
-.marquee{
+.marquee {
     background-color: black;
     color: white;
     font-size: 25px;
@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px ;
+    padding: 40px;
     min-height: 80vh;
 
 }
@@ -99,9 +99,9 @@ body {
 
 img {
     border-radius: 50%;
-    width: 240px;  
-    height: 240px; 
-    object-fit: cover; 
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
     margin-left: 10px;
 
 }
@@ -118,12 +118,45 @@ img {
 
 }
 
-.about p{
+.about p {
     max-width: 700px;
     margin: auto;
     line-height: 1.8;
 
 }
 
+.skills {
+    padding: 70px 8%;
+    text-align: center;
 
+}
 
+.skills h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.skill-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+
+}
+
+.skill-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 15px;
+
+}
