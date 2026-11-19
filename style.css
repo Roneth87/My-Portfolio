@@ -217,3 +217,25 @@ img {
     cursor: pointer;
 
 }
+
+.contact {
+    padding: 25px;
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+    line-height: 2;
+
+}
+
+.contact h1 {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+
+}
+
+.contact img {
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+}
