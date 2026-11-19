@@ -53,6 +53,17 @@ body {
 
 }
 
+.marquee{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+
+
+}
+
 .home {
     display: flex;
     justify-content: space-around;
