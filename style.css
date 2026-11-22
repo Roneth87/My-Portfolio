@@ -227,7 +227,32 @@ img {
 
 }
 
-.contact {
+.btn{
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.btn button{
+    padding: 12px 30px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btn button:hover{
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+   
+}
+
+.contact{
     padding: 25px;
     text-align: center;
     background-color: #1e293b;
@@ -236,14 +261,14 @@ img {
 
 }
 
-.contact h1 {
+.contact h1{
     max-width: 700px;
     margin: auto;
     line-height: 1.8;
 
 }
 
-.contact img {
+.contact img{
     width: 45px;
     height: 45px;
     transition: 0.3s;
