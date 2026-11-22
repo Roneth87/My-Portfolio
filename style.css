@@ -61,7 +61,16 @@ body {
     padding: 10px;
     font-family: Arial, sans-serif;
 
+}
 
+#themeBtn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    
 }
 
 .home {
@@ -238,4 +247,26 @@ img {
     width: 45px;
     height: 45px;
     transition: 0.3s;
+}
+
+.dark-mode{
+    background-color: #0f172a;
+    color: white;
+
+}
+
+
+.dark-mode .skill-card,
+.dark-mode .project-card,
+.dark-mode .github-card,
+.dark-mode .modal-content{
+
+    background-color: #1e293b;
+    color: white;
+
+}
+
+.dark-mode .contact{
+    background-color: #1e293b;
+
 }
