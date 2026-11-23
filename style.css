@@ -63,14 +63,14 @@ body {
 
 }
 
-#themeBtn{
+#themeBtn {
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     background-color: #333;
     color: white;
-    
+
 }
 
 .home {
@@ -227,13 +227,13 @@ img {
 
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
 }
 
-.btn button{
+.btn button {
     padding: 12px 30px;
     background-color: #2563eb;
     color: white;
@@ -246,13 +246,13 @@ img {
 
 }
 
-.btn button:hover{
+.btn button:hover {
     background-color: #1d4ed8;
     transform: translateY(-3px);
-   
+
 }
 
-.contact{
+.contact {
     padding: 25px;
     text-align: center;
     background-color: #1e293b;
@@ -261,20 +261,20 @@ img {
 
 }
 
-.contact h1{
+.contact h1 {
     max-width: 700px;
     margin: auto;
     line-height: 1.8;
 
 }
 
-.contact img{
+.contact img {
     width: 45px;
     height: 45px;
     transition: 0.3s;
 }
 
-.dark-mode{
+.dark-mode {
     background-color: #0f172a;
     color: white;
 
@@ -284,14 +284,206 @@ img {
 .dark-mode .skill-card,
 .dark-mode .project-card,
 .dark-mode .github-card,
-.dark-mode .modal-content{
+.dark-mode .modal-content {
 
     background-color: #1e293b;
     color: white;
 
 }
 
-.dark-mode .contact{
+.dark-mode .contact {
     background-color: #1e293b;
+
+}
+
+
+
+/*TABLET RESPONSIVE*/
+
+
+@media screen and (max-width: 1024px) {
+
+    .nav {
+        padding: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .home {
+        padding: 40px 30px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .my-img img {
+        width: 280px;
+    }
+
+    .skill-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+/*  MOBILE RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+
+
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        min-height: auto;
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    .home-content {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h2 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        font-size: 15px;
+    }
+
+    .my-img img {
+        width: 220px;
+    }
+
+
+
+
+    .about {
+        padding: 50px 20px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+
+
+
+    .skill-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skill-card {
+        padding: 20px 10px;
+    }
+
+    .skill-card img {
+        width: 55px;
+        height: 55px;
+    }
+
+
+
+
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-card img {
+        height: 180px;
+    }
+
+
+
+
+    .contact {
+        padding: 40px 15px;
+    }
+
+    .contact-links {
+        gap: 25px;
+    }
+
+    .contact-links img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media screen and (max-width: 480px) {
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h2 {
+        font-size: 19px;
+    }
+
+    .my-img img {
+        width: 190px;
+    }
+
+    .skill-card {
+        padding: 15px 8px;
+    }
+
+    .project-card img {
+        height: 160px;
+    }
+
+    .all-projects-btn {
+        font-size: 14px;
+        padding: 12px 18px;
+    }
 
 }
